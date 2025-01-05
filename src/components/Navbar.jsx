@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 
 import {styles} from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close} from '../assets';
+import { logop, menu, close} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
-
 
 
 
@@ -24,7 +23,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
 
-            <img src= {logo} alt= "logo" className= "w-9 h-9 oblect-comtain"/>       
+            <img src= {logop} alt= "logo" className= "w-24 h-auto oblect-contain"/>
+            <p className="text-white text-[18px] font-bold cursor-pointer">Portfolio 
+              <span className="sm:block hidden">| Ayomide Ogunobde</span>
+            </p>      
           </Link>
 
         </div>
@@ -33,4 +35,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar 
