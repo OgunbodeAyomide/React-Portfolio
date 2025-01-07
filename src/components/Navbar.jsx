@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {styles} from '../styles';
 import { navLinks } from '../constants';
 import { logop, menu, close} from '../assets';
+import { s } from 'framer-motion/client';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -23,7 +24,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
 
-            <img src= {logop} alt= "logo" className= "w-24 h-auto oblect-contain"/>
+            <img src= {logop} alt= "logo" className= "w-24 h-auto object-contain"/>
             <p className="text-white text-[18px] font-bold cursor-pointer">Portfolio 
               <span className="sm:block hidden">| Ayomide Ogunobde</span>
             </p>      
@@ -32,7 +33,10 @@ const Navbar = () => {
             {navLinks.map((link) =>(
               <li key={link.id}
               className={`${
-                active === link.title? "text-white" : "text-secondary">
+                active === link.title? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`} 
+              onClick={() => setActive(link.title)}
+              >
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))}
