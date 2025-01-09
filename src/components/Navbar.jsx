@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className= {`
       ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
-        <div className= "w-full flex justify-between items-center max-w-7xl mx-auto">
+        <div className= "w-full flex justify-between items-center max-w-7x1 mx-auto">
 
           {/*link containing the logo*/} 
           <Link to="/" className= "flex items-center gap-2"
@@ -26,10 +26,10 @@ const Navbar = () => {
           }}>
 
             <img src= {logop} alt= "logo" className= "w-24 h-auto object-contain"/>
-            <p className="text-white text-[18px] font-bold cursor-pointer">Portfolio 
-              <span className="sm:block hidden">| Ayomide Ogunobde</span>
+            <p className="text-white text-[18px] font-bold cursor-pointer flex">Portfolio &nbsp;<span className="sm:block hidden">| Ayomide Ogunbode</span>
             </p>      
           </Link>
+          
           <ul className = "list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((link) =>(
               <li key={link.id}
