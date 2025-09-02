@@ -24,6 +24,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    logop,
+    logopCompany,
   } from "../assets";
   
   export const navLinks = [
@@ -121,7 +123,7 @@ import {
       company_name: "Alafia Baptist Church",
       icon: alafiapic,
       iconBg: "#fff",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2024 - Present",
       points:[
       "Developing and maintaining web applications using HTML5, CSS3, JavaScript, and popular libraries such as Bootstrap and jQuery.",
       "Integrating third-party APIs including Google Maps and EmailJS for enhanced functionality.",
@@ -132,15 +134,16 @@ import {
 
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Personal Projects",
+      icon: logopCompany,
       iconBg: "#383E56",
-      date: "March 2023 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      date: "November 2023 - Present",
+      points:[
+        "Developed and maintained dynamic interfaces with React.js, JavaScript, and modern CSS.",
+        "Improved performance and accessibility through optimization and responsive design.",
+        "Integrated APIs and third-party libraries to enhance app functionality.",
+        "Worked collaboratively with designers and developers to deliver polished, production-ready products.",
+        "Ensured code quality with testing, debugging, and best practices in version control.",
       ],
     },
     // {
@@ -159,14 +162,14 @@ import {
     {
       title: "Freelance Web-Developer",
       company_name: "freelance",
-      icon: meta,
+      icon: logopCompany,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Crafted custom websites that blend modern design with seamless functionality.",
+        "Turned client ideas into interactive, responsive digital experiences.",
+        "Leveraged APIs and modern tools to deliver scalable, efficient solutions.",
+        "Delivered polished, production-ready websites on time and on budget.",
       ],
     },
   ];

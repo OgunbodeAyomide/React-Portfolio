@@ -24,7 +24,7 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      {/* You can add more content here if needed */}
+      {/* more content here */}
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
 

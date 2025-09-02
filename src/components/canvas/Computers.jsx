@@ -37,8 +37,11 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect (() => {
+
+    // add a media query listener to detect screen size changes
     const mediaQuery = window.matchMedia('(max-width: 500px)');
     
+    // set the initial value of isMobile based on the current screen size
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {

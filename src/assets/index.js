@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import alafiapic from "./company/alafiapic.png";
+import logopCompany from "./company/logopCompany.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -57,6 +58,7 @@ export {
   threejs,
   meta,
   alafiapic,
+  logopCompany,
   shopify,
   starbucks,
   tesla,
