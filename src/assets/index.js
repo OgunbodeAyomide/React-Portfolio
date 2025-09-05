@@ -28,6 +28,7 @@ import logopCompany from "./company/logopCompany.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import alaph from "./alaph.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,6 +63,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  alaph,
   carrent,
   jobit,
   tripguide,
