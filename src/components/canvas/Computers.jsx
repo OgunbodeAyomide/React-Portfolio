@@ -7,7 +7,7 @@ import CanvasLoader from '../Loader';
 
 
 const ComputersMoodel = ({isMobile}) => {
-  const computer = useGLTF('./src/public/desktop_pc/scene.gltf');
+  const computer = useGLTF('public/desktop_pc/scene.gltf');
   
   {/*Adding lights to the mesh*/}
 
